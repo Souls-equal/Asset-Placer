@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Placer - v5.4</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Babylon.js CDN -->
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+</head>
+<body>
+    <!-- Babylon 3D background: fullscreen, behind the interface -->
+    <div id="canvas-container" aria-label="Babylon 3D scene">
+        <canvas id="renderCanvas"></canvas>
+    </div>
+
+    <!-- UI overlay: menus, asset library, modals and panels above the canvas -->
+    <div id="ui-overlay" aria-label="Editor interface"></div>
+
+    <!-- Global scripts loaded sequentially -->
+    <script src="i18n.js"></script>
+    <script src="bloxd_io.js"></script>
+    <script src="parser.js"></script>
+    <script src="renderer.js"></script>
+    <script src="assetInstance.js"></script>
+    <script src="assetManager.js"></script>
+    <script src="camera.js"></script>
+    <script src="selectionManager.js"></script>
+    <script src="inputManager.js"></script>
+    <script src="dragDropManager.js"></script>
+    <script src="terrainManager.js"></script>
+    <script src="schematicLibraryLoader.js"></script>
+    <script src="libraryUI.js"></script>
+    <script src="uiManager.js"></script>
+    <script src="explorerUI.js"></script>
+    <script src="exporter.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

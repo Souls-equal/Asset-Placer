@@ -1,0 +1,16 @@
+{
+  "schematics": [
+    {
+      "file": "tree001.bloxdschem",
+      "name": "tree001",
+      "type": "tree",
+      "biome": "classic"
+    },
+    {
+      "file": "tree002.bloxdschem",
+      "name": "tree002",
+      "type": "tree",
+      "biome": "classic"
+    }
+  ]
+}

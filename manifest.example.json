@@ -1,0 +1,31 @@
+{
+  "schematics": [
+    {
+      "file": "oak_tree.bloxdschem",
+      "name": "Oak Tree",
+      "type": "tree",
+      "biome": "classic",
+      "tags": ["nature", "small"]
+    },
+    {
+      "file": "snow_cabin.bloxdschem",
+      "name": "Snow Cabin",
+      "type": "house",
+      "biome": "snow",
+      "tags": ["building"]
+    },
+    {
+      "file": "desert_rock.bloxdschem",
+      "name": "Desert Rock",
+      "type": "rock",
+      "biome": "desert",
+      "tags": ["decoration"]
+    },
+    {
+      "file": "large_pine.bloxdschem",
+      "name": "Large Pine",
+      "type": ["tree", "decoration"],
+      "biome": ["snow", "classic"]
+    }
+  ]
+}
